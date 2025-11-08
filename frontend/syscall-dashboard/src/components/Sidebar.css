@@ -1,0 +1,123 @@
+/* ✅ Sidebar sliding animation */
+.sidebar {
+  width: 200px;
+  background: #161b22;
+  border-right: 1px solid #30363d;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;   /* ✅ Smooth slide */
+}
+
+/* ✅ Sidebar OPEN */
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* ✅ Sidebar CLOSED */
+.sidebar.closed {
+  transform: translateX(-220px);
+}
+
+/* ✅ Hamburger Button */
+.toggle-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+  font-size: 28px;
+  background: #58a6ff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ✅ Content shifts when sidebar open */
+.content {
+  padding: 20px;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.content.shift {
+  margin-left: 220px;   /* ✅ match sidebar width */
+}
+
+
+.sidebar {
+  width: 200px;
+  background: #161b22;
+  border-right: 1px solid #30363d;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0px;
+  padding-top: 50px;
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+}
+
+/* ✅ OPEN */
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* ✅ CLOSED */
+.sidebar.closed {
+  transform: translateX(-250px);
+}
+
+.sidebar-title {
+  color: #58a6ff;
+  font-size: 22px;
+  top: 200px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #21262d;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #e6edf3;
+  transition: 0.2s;
+  font-size: 16px;
+}
+
+.sidebar ul li:hover {
+  background: #30363d;
+}
+
+/* ✅ HAMBURGER BUTTON */
+.toggle-btn {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  z-index: 1000;
+  font-size: 22px;
+  background: #58a6ff;
+  color: white;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ✅ CONTENT SHIFT */
+.content {
+  padding: 50px;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.content.shift {
+  margin-left: 220px;
+}

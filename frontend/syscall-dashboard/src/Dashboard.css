@@ -1,0 +1,90 @@
+/* 🌙 DARK THEME UI */
+
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #58a6ff;
+}
+
+/* ✅ CARDS */
+.card-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  min-width: 240px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+  color: #58a6ff;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e6edf3;
+}
+
+/* ✅ CHART SECTION */
+.chart-box {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+  margin-bottom: 30px;
+}
+
+/* ✅ TABLE */
+.table-box {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #30363d;
+}
+
+th {
+  background: #21262d;
+}
+
+tr:hover {
+  background: #30363d;
+}
