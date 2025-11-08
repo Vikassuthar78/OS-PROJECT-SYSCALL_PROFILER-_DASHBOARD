@@ -49,10 +49,7 @@ OS_PROJECT/
 ├── package.json
 └── package-lock.json
 
-yaml
-Copy code
 
----
 
 # 🚀 Getting Started
 
@@ -60,48 +57,53 @@ Copy code
 
 ### **Step 1: Navigate to Backend**
 ```bash
+
 cd backend
 Step 2: Create Virtual Environment
+
 bash
-Copy code
 python -m venv venv
+
 Step 3: Activate Environment
 ✅ Windows
 
 bash
-Copy code
 venv\Scripts\activate
+
 Step 4: Install Dependencies
 bash
-Copy code
 pip install flask pywin32
+
 Step 5: Run Backend
 bash
-Copy code
 python app.py
+
 Backend will start on:
 
 cpp
-Copy code
 http://127.0.0.1:5000
+
+
+
 ✅ 2. Frontend Setup (React)
+
 Step 1: Navigate
 bash
-Copy code
 cd frontend/syscall-dashboard
+
 Step 2: Install Dependencies
 bash
-Copy code
 npm install
+
 Step 3: Start Frontend
 bash
-Copy code
 npm start
+
 Frontend runs on:
 
-arduino
-Copy code
 http://localhost:3000
+
+
 📡 API Endpoints
 Method	Endpoint	Description
 GET	/syscalls	Returns latest syscall logs
